@@ -1,0 +1,192 @@
+.wrap {
+  position: relative;
+}
+.wrap header {
+  background-color: black;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color: transparent;
+}
+.wrap header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+  margin-right: 5%;
+}
+.wrap header nav a {
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+.wrap header nav a:nth-of-type(1) {
+  margin-right: 70%;
+  font-size: 40px;
+}
+.wrap main {
+  background-color: black;
+  color: white;
+}
+.wrap main .topWrap {
+  display: flex;
+  overflow: hidden;
+}
+.wrap main .topWrap .back {
+  flex-shrink: 0;
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  position: relative;
+}
+.wrap main .topWrap .back .thumbWrap {
+  padding: 14%;
+  display: flex;
+  justify-content: space-between;
+}
+.wrap main .topWrap .back .thumbWrap > div {
+  width: 50%;
+}
+.wrap main .topWrap .back .thumbWrap > div h2 {
+  margin: 0;
+  font-size: 4rem;
+  color: white;
+}
+.wrap main .topWrap .back .thumbWrap > div p {
+  color: white;
+  padding: 5%;
+}
+.wrap main .topWrap .back .thumbWrap .thumb {
+  width: 30%;
+  transform: translateY(-30%);
+}
+.wrap main .topWrap .back .thumbWrap .thumb > img {
+  width: 100%;
+}
+.wrap main .s01 {
+  margin: 30px;
+  margin-top: 6%;
+}
+.wrap main .s01 > div {
+  padding-bottom: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+.wrap main .s01 > div button {
+  width: 160px;
+  border-radius: 15px;
+}
+.wrap main .s01 ul {
+  display: flex;
+}
+.wrap main .s01 ul li {
+  padding-right: 10px;
+  width: 250px;
+  height: 400px;
+}
+.wrap main .s01 ul li > div img {
+  width: 100%;
+}
+.wrap main .s02 {
+  margin: 30px;
+}
+.wrap main .s02 > div {
+  padding-bottom: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+.wrap main .s02 > div button {
+  width: 160px;
+  border-radius: 15px;
+}
+.wrap main .s02 ul {
+  display: flex;
+}
+.wrap main .s02 ul li {
+  padding-right: 10px;
+  width: 250px;
+  height: 400px;
+}
+.wrap main .s02 ul li > div img {
+  width: 100%;
+}
+.wrap main .s03 {
+  margin: 30px;
+}
+.wrap main .s03 > div {
+  padding-bottom: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+.wrap main .s03 > div button {
+  width: 160px;
+  border-radius: 15px;
+}
+.wrap main .s03 ul {
+  display: flex;
+}
+.wrap main .s03 ul li {
+  padding-right: 10px;
+  width: 250px;
+  height: 400px;
+}
+.wrap main .s03 ul li > div img {
+  width: 100%;
+}
+.wrap main .s04 {
+  margin: 30px;
+}
+.wrap main .s04 > div {
+  padding-bottom: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+.wrap main .s04 > div button {
+  width: 160px;
+  border-radius: 15px;
+}
+.wrap main .s04 ul {
+  display: flex;
+}
+.wrap main .s04 ul li {
+  padding-right: 10px;
+  width: 250px;
+  height: 400px;
+}
+.wrap main .s04 ul li > div img {
+  width: 100%;
+}
+
+article {
+  padding-top: 5%;
+}
+article h2 {
+  text-align: center;
+}
+article ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+article ul li {
+  width: 250px;
+  height: 400px;
+  overflow-wrap: break-word;
+  margin: 2% 1%;
+}
+article ul li div img {
+  width: 100%;
+}
+article ul li h3 {
+  overflow-wrap: break-word;
+}
+
+* {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
