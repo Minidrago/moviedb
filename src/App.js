@@ -19,7 +19,7 @@ function App() {
 
 
   return (
-    <HashRouter>
+    <HashRouter basename='./'>
     <div className="wrap">
       
       <header>
